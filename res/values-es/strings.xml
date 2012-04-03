@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Notas</string>
+    <string name="app_widget2x2">Notas 2x2</string>
+    <string name="app_widget4x4">Notas 4x4</string>
+    <string name="widget_havenot_content">Ninguna nota asociada, pulse para crear una nota asociada.</string>
+    <string name="widget_under_visit_mode">Modo privacidad，no se puede examinar el contenido</string>
+    <string name="notelist_string_info">...</string>
+    <string name="notelist_menu_new">Añadir nota</string>
+    <string name="delete_remind_time_message">Eliminado recordatorio</string>
+    <string name="set_remind_time_message">Establecer recordatorio</string>
+    <string name="note_alert_expired">Expirado</string>
+    <string name="format_date_ymd">ddMMyyyy</string>
+    <string name="format_datetime_mdhm">MMMd kk:mm</string>
+    <string name="notealert_ok">Lo tengo</string>
+    <string name="notealert_enter">Echa un vistazo</string>
+    <string name="note_link_tel">Llamar</string>
+    <string name="note_link_email">Enviar correo</string>
+    <string name="note_link_web">Navegar</string>
+    <string name="note_link_other">Abrir ma</string>
+    <!-- Text export file information -->
+    <string name="file_path">/MIUI/notes/</string>
+    <string name="file_name_txt_format">notes_%s.txt</string>
+    <!-- notes list string -->
+    <string name="format_folder_files_count">(%d)</string>
+    <string name="menu_create_folder">Nuevo directorio</string>
+    <string name="menu_export_text">Exportar texto</string>
+    <string name="menu_sync">Sincronizar</string>
+    <string name="menu_sync_cancel">Cancelar sincronización</string>
+    <string name="menu_setting">Ajustes</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_move">Mover a directorio</string>
+    <string name="menu_select_title">%d selected</string>
+    <string name="menu_select_none">Nada seleccionado, operación inválida</string>
+    <string name="menu_select_all">Seleccionar todo</string>
+    <string name="menu_deselect_all">Deseleccionar todo</string>
+    <string name="menu_font_size">Tamaño de fuente</string>
+    <string name="menu_font_small">Pequeño</string>
+    <string name="menu_font_normal">Mediano</string>
+    <string name="menu_font_large">Grande</string>
+    <string name="menu_font_super">Super</string>
+    <string name="menu_list_mode">Introducir listado de tareas</string>
+    <string name="menu_normal_mode">Dejar listado de tareas</string>
+    <string name="menu_folder_view">Ver directorio</string>
+    <string name="menu_folder_delete">Eliminar directorio</string>
+    <string name="menu_folder_change_name">Cambiar nombre de directorio</string>
+    <string name="folder_exist">El directorio %1$ existe, por favor renombre</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send_to_desktop">Enviar a inicio</string>
+    <string name="menu_alert">Recordármelo</string>
+    <string name="menu_remove_remind">Eliminar recordatorio</string>
+    <string name="menu_title_select_folder">Seleccionar directorio</string>
+    <string name="menu_move_parent_folder">Directorio superior</string>
+    <string name="info_note_enter_desktop">Nota añadida a inicio</string>
+    <string name="alert_message_delete_folder">¿Eliminar el directorio y sus notas?</string>
+    <string name="alert_title_delete">Eliminar notas seleccionadas</string>
+    <string name="alert_message_delete_notes">Confirm to delete the selected %d notes?</string>
+    <string name="alert_message_delete_note">¿Eliminar esta nota?</string>
+    <string name="format_move_notes_to_folder">Se han movido las %1$d notas al directorio %2$s</string>
+    <!-- Error information -->
+    <string name="error_sdcard_unmounted">Tarjeta SD ocupada, no disponible</string>
+    <string name="error_sdcard_export">Exportación fallida, revise la tarjeta SD</string>
+    <string name="error_note_not_exist">La nota no existe</string>
+    <string name="error_note_empty_for_clock">Lo siento, no se puede establecer la hora en una nota vacía</string>
+    <string name="error_note_empty_for_send_to_desktop">Lo siento, no se puede enviar una nota vacía a inicio</string>
+    <string name="success_sdcard_export">Exportación satisfactoria</string>
+    <string name="failed_sdcard_export">Exportación fallida</string>
+    <string name="format_exported_file_location">Exportar fichero de texto (%1$s) al directorio SD (%2$s) </string>
+    <!-- Sync -->
+    <string name="ticker_syncing">Sincronizando notas...</string>
+    <string name="ticker_success">Sincronización correcta</string>
+    <string name="ticker_fail">Sincronización fallida</string>
+    <string name="ticker_cancel">Sincronización cancelada</string>
+    <string name="success_sync_account">Sincronización correcta con cuenta %1$s</string>
+    <string name="error_sync_network">Sincronización fallida, revise la red y los datos de la cuenta</string>
+    <string name="error_sync_internal">Sincronización fallida, error interno</string>
+    <string name="error_sync_cancelled">Sincronización cancelada</string>
+    <string name="sync_progress_login">Logueando en %1$s...</string>
+    <string name="sync_progress_init_list">Consiguiendo listado de notas remoto...</string>
+    <string name="sync_progress_syncing">Sincronizando notas locales con Google Task...</string>
+    <!-- Preferences -->
+    <string name="preferences_title">Ajustes</string>
+    <string name="preferences_account_title">Cuenta de sincronización</string>
+    <string name="preferences_account_summary">Sincronizar notas con Google Task</string>
+    <string name="preferences_last_sync_time">Ultima sincronización %1$s</string>
+    <string name="preferences_last_sync_time_format">dd-MM-yyyy hh:mm:ss</string>
+    <string name="preferences_add_account">Añadir cuenta</string>
+    <string name="preferences_menu_change_account">Cambiar cuenta de sincronización</string>
+    <string name="preferences_menu_remove_account">Eliminar cuenta de sincronización</string>
+    <string name="preferences_menu_cancel">Cancelar</string>
+    <string name="preferences_button_sync_immediately">Sincronizar inmediatamente</string>
+    <string name="preferences_button_sync_cancel">Cancelar sincronización</string>
+    <string name="preferences_dialog_change_account_title">Cuenta actual %1$s</string>
+    <string name="preferences_dialog_change_account_warn_msg">Toda la información relativa a la sincronización se eliminará, pueden surgir elementos duplicados.</string>
+    <string name="preferences_dialog_select_account_title">Sincronizar notas</string>
+    <string name="preferences_dialog_select_account_tips">Seleccione una cuenta de Google. Las notas se sincronizarán con Google Task.</string>
+    <string name="preferences_toast_cannot_change_account">No se puede cambiar la cuenta porque hay una sincronización en curso</string>
+    <string name="preferences_toast_success_set_accout">%1$s ha sido establecida como cuenta de sincronización</string>
+    <string name="preferences_bg_random_appear_title">Nueva nota con color de fondo aleatorio</string>
+
+    <string name="button_delete">Eliminar</string>
+    <string name="call_record_folder_name">Notas de llamada</string>
+    <string name="hint_foler_name">Input name</string>
+
+    <string name="search_label">Buscando notas</string>
+    <string name="search_hint">Buscar notas</string>
+    <string name="search_setting_description">Texto en tus notas</string>
+    <string name="search">Notas</string>
+    <string name="datetime_dialog_ok">establecido</string>
+    <string name="datetime_dialog_cancel">cancelar</string>
+    <plurals name="search_results_title">
+         <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> resultado para \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> resultados para \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+    </plurals>
+
+</resources>
